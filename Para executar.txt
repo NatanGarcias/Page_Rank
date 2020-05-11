@@ -1,5 +1,0 @@
-Compilar : 
-g++ trab2.cpp -O2
-
-Executar : (Exemplo)
-./join 1000000 10,0 7,11 fileOne fileTwo fileOut
