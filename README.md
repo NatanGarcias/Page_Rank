@@ -3,7 +3,7 @@ Developed by Larry Page and Sergey Brin in the 90's, PageRank is an algorithm to
 
 # Compiling
 ```bash
-gcc Trab2.c -lm -o Trab2
+~$ gcc Trab2.c -lm -o Trab2
 ```
 
 ## Problem Description
