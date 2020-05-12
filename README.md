@@ -24,12 +24,13 @@ page  |  rank
 
 ## Problem Definition
 - **P** set of pages
-- |**P**| = n and  i ranges from [0, n-1]
+- |**P**| = n
+- i,j ranges from [0, n-1]
 - p[i] is the ith page on **P**
-- initially pageRank(p[i]) = 1/n
+- initially **pageRank**(p[i]) = 1/n
 - [damping factor](https://en.wikipedia.org/wiki/PageRank#Damping_factor) **d** is set to 0.85
-- In(p[i]) every page with a link to i
-- Out(p[i]) every page that i connects to
+- **In**(p[i]) every page with a link to i
+- **Out**(p[i]) every page that i connects to
 - convergence is the stopping criteria
 - in case of ties, output the smallest node label first
 
