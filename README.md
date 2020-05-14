@@ -11,7 +11,7 @@ Given a list of pages with its respective links, determine the rank of the pages
 <p align="center">
 <img src="https://raw.githubusercontent.com/NatanGarcias/Page_Rank/master/assets/sample.svg?token=ADE4HTXEYFIR4T7U2C3S2RC6YMU26">
 </p>
-Note that in the example above, even tough node 1 gets a lot of direct links it is node 2 which has the highest pageRank. It so happens because node 2 influences a page with a lot of influence itself, hence it's score goes up. The rankings for this sample are:
+Note that in the example above, even tough node 1 gets a lot of direct links it is node 2 which has the highest rank. It so happens because node 2 influences a page with a lot of influence itself, hence it's score goes up. The rankings for this sample are:
 
 
 page  |  rank
@@ -26,8 +26,8 @@ page  |  rank
 - **P** set of pages
 - |**P**| = n
 - i,j ranges from [0, n-1]
-- p[i] is the ith page on **P**
-- initially **pageRank**(p[i]) = 1/n
+- **p**[i] is the ith page on **P**
+- initially **pageRank**(**p**[i]) = 1/n
 - [damping factor](https://en.wikipedia.org/wiki/PageRank#Damping_factor) **d** is set to 0.85
 - **In**(p[i]) every page with a link to i
 - **Out**(p[i]) every page that i connects to
